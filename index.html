@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .myDiv {
+        border: 5px outset red;
+        background-color: aliceblue;
+        text-align: center;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Intro</title>
+    <meta
+      name="description"
+      content="Διαδραστικη πολυμεσικη σελιδα μουσικων προτασεων"
+    />
+  </head>
+
+  <body>
+    <h1>Διαδραστικη πολυμεσικη σελιδα μουσικων προτασεων</h1>
+    <div class="myDiv">
+      <h3>
+        Καντε ενα μικρο κουιζ ωστε να βρουμε τις μουσικες σας προτομισεις και να
+        σας προτεινουμε το αντιστιχο τραγουδι ή απλως πατηστε το κουμπι λιστα
+        για να δειτε ολα τα δυνατα αποτελεσματα
+      </h3>
+    </div>
+
+    <button onclick="goQuiz();">Quiz</button>
+    <script>
+      function goQuiz() {
+        location.href = "quiz.html";
+      }
+    </script>
+    <button onclick="golist();">Lista</button>
+    <script>
+      function golist() {
+        location.href = "lista_apo.html";
+      }
+    </script>
+    <!-- ___________________________________________________ -->
+  </body>
+</html>
