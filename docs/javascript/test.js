@@ -31,5 +31,5 @@ function test() {
     }
 
     sessionStorage.setItem("winner",max);
-    setTimeout(window.open("apotelesma.html"),3000);
+    setTimeout(window.open("apoteTest.html"),3000);
 }
