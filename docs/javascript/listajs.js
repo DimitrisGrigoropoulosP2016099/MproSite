@@ -2,7 +2,11 @@ window.onload = function listajs() {
     let songs = [
         ["id1", "That's life", "photos/photo.jpg"],
         ["id2", "copy free", "photos/photo.jpg"],
-        ["id3", "copy free 2", "photos/photo.jpg"]
+        ["id3", "copy free 2", "photos/photo.jpg"],
+        ["id4", "Haters Gonna Hate" , "photos/id4.jpg"],
+        ["id5","Bugs" , "photos/id5.jpg"],
+        ["id6","Time Machine" , "photos/id6.jpg"],
+        ["id7"," Major System Error ","photos/id7.jpg"]
     ];
 
     for (i = 0; i < songs.length; i++) {
@@ -17,7 +21,7 @@ window.onload = function listajs() {
             tdiv.style.backgroundColor = "lightgrey";
         }
 
-        tdiv.innerHTML = '<img src=' + songs[i][2] + ' width="80" height="50"> <a id="'+songs[i][0]+'para" onclick="movesite(\'' + songs[i][0] + '\')">' + songs[i][1] + '</a>';
+        tdiv.innerHTML = '<img src=' + songs[i][2] + ' width="180" height="150"> <a style="font-size:20px"id="'+songs[i][0]+'para" onclick="movesite(\'' + songs[i][0] + '\')">' + songs[i][1] + '</a>';
 
         
         document.body.appendChild(tdiv);
