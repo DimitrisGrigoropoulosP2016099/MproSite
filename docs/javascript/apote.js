@@ -1,6 +1,6 @@
 window.onload = function apote() {
     var winner = sessionStorage.getItem("winner");
-    winner ="id1"
+    
     // [id , titlos , img , keimeno , video , kiklo , stixo , sin , ermi]
     // [0 ,    1    ,  2  ,    3   ,    4   ,   5   ,   6   ,  7  ,   8 ]
     let songs = [
