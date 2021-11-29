@@ -1,0 +1,53 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #9fa9a3;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+div:first-of-type {
+    display: flex;
+    float: left;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    color: #e3e0cc;
+    text-shadow: 2px 2px 2px #585252;
+    font-weight: bolder;
+}
+
+img {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    z-index: 10;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
