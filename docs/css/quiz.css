@@ -5,7 +5,7 @@ html {
 body {
     /*background-color: rgb(248, 242, 242);
     background-image: url("photos/Musical.jpg");*/
-    background-color: #808080;
+    background-color: #cac5c5;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ legend {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #A9A9A9;
+    background-color: #DBF2F2;
 }
 
 
@@ -142,7 +142,7 @@ legend {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #C0C0C0;
+    background-color: #9EF7FA;
 }
 
 .Second_Line_Container input:checked {

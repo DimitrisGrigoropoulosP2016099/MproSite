@@ -1,7 +1,7 @@
 function results() {
     let max = "id0"
-    var currmax = 0
-    var i = 0
+    let currmax = 0
+    let i = 0
     let exm = [
         ["1", "2", "3", "4", "id1"],
         ["2", "3", "4", "4", "id2"],
@@ -9,11 +9,17 @@ function results() {
     ]
     
 
-    var answ1 = document.querySelector('input[name="q1"]:checked').value;
-    var answ2 = document.querySelector('input[name="q2"]:checked').value;
-    var  answ3 = document.querySelector('input[name="q3"]:checked').value;
-    var answ4 = document.querySelector('input[name="q4"]:checked').value;
-    let answ = [answ1 , answ2 , answ3 ,answ4 ]
+    let answ1 = document.querySelector('input[name="q1"]:checked').value;
+    let answ2 = document.querySelector('input[name="q2"]:checked').value;
+    let answ3 = document.querySelector('input[name="q3"]:checked').value;
+    let answ4 = document.querySelector('input[name="q4"]:checked').value;
+    let answ5 = document.querySelector('input[name="q5"]:checked').value;
+    let answ6 = document.querySelector('input[name="q6"]:checked').value;
+    let answ7 = document.querySelector('input[name="q7"]:checked').value;
+    let answ8 = document.querySelector('input[name="q8"]:checked').value;
+    let answ9 = document.querySelector('input[name="q9"]:checked').value;
+    let answ10 = document.querySelector('input[name="q10"]:checked').value;
+    let answ = [answ1 , answ2 , answ3 ,answ4,answ5,answ6,answ7,answ8,answ9,answ10 ]
 
     for (let r=0;r<exm.length;r++){
         for(let t=0;t<exm[0].length;t++){
@@ -31,5 +37,5 @@ function results() {
     }
 
     sessionStorage.setItem("winner",max);
-    setTimeout(window.open("choice.html", "_self"),3000);
+    window.open("choice.html", "_self");
 }
