@@ -1,25 +1,13 @@
 function ClearRadioValue() {
-    for (z= 1; z<5; z++) {
-        switch (z) {
-            case 1: 
-                list_name = "q1";
-                break;
-            case 2: 
-                list_name = "q2";
-                break;
-            case 3: 
-                list_name = "q3";
-                break;
-            case 4: 
-                list_name = "q4";
-                break;
-        }
-    
-        var ele = document.getElementsByName(list_name);
-      
-        for(i = 0; i < ele.length; i++) {
-            if(ele[i].checked)
-            ele[i].checked = false;
+    for (z = 0; z < 11; z++) {
+        // to onoma tis erwtiseis
+        list_name = "q" + z.toString();
+        let ele = document.getElementsByName(list_name);
+
+        for (i = 0; i < ele.length; i++) {
+            if (ele[i].checked)
+                // ean exei timi tin sbini
+                ele[i].checked = false;
         }
     }
 }

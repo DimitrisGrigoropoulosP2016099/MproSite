@@ -8,7 +8,7 @@ function results() {
     let i = 0
 
     // pinakas me ta tragoudia kai ta xaraktiristika tous
-    let songs = [
+    const songs = [
         ["40+", "Rock", "Στεναχωρημένος", "Αργό", "Accoustic Guitar","Vocals","Τραγουδιστές","Johnny Cash","Οχι","Peter Bjorn And John - Young Folks","id1"],
         ["18-40", "Rock", "Χαρούμενος", "Αργό", "Drums","Vocals","Μπάντες","Dave Grohl","Οχι","System Of A Down - Toxicity","id2"],
         ["18-","EDM","Χαρούμενος","Γρήγορο","Trumpet","Instrumental","Μπάντες","Michael Jackson","Οχι","Peter Bjorn And John - Young Folks","id3"],
@@ -19,17 +19,17 @@ function results() {
     ]
     
     // diabazei tis epiloges tou xristi
-    let answ1 = document.querySelector('input[name="q1"]:checked').value;
-    let answ2 = document.querySelector('input[name="q2"]:checked').value;
-    let answ3 = document.querySelector('input[name="q3"]:checked').value;
-    let answ4 = document.querySelector('input[name="q4"]:checked').value;
-    let answ5 = document.querySelector('input[name="q5"]:checked').value;
-    let answ6 = document.querySelector('input[name="q6"]:checked').value;
-    let answ7 = document.querySelector('input[name="q7"]:checked').value;
-    let answ8 = document.querySelector('input[name="q8"]:checked').value;
-    let answ9 = document.querySelector('input[name="q9"]:checked').value;
-    let answ10 = document.querySelector('input[name="q10"]:checked').value;
-    let answ = [answ1 , answ2 , answ3 ,answ4,answ5,answ6,answ7,answ8,answ9,answ10 ]
+    const answ1 = document.querySelector('input[name="q1"]:checked').value;
+    const answ2 = document.querySelector('input[name="q2"]:checked').value;
+    const answ3 = document.querySelector('input[name="q3"]:checked').value;
+    const answ4 = document.querySelector('input[name="q4"]:checked').value;
+    const answ5 = document.querySelector('input[name="q5"]:checked').value;
+    const answ6 = document.querySelector('input[name="q6"]:checked').value;
+    const answ7 = document.querySelector('input[name="q7"]:checked').value;
+    const answ8 = document.querySelector('input[name="q8"]:checked').value;
+    const answ9 = document.querySelector('input[name="q9"]:checked').value;
+    const answ10 = document.querySelector('input[name="q10"]:checked').value;
+    const answ = [answ1 , answ2 , answ3 ,answ4,answ5,answ6,answ7,answ8,answ9,answ10 ]
 
     // elenxei tis epiloges tou xristi me ta stoixeia twn tragoudiwn kai gia kathe omoia epilogi dinei ena ponto 
     // vriskei to megisto
